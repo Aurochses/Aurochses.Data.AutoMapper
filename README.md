@@ -4,8 +4,8 @@ Package to use AutoMapper with Aurochses.Data.
 
 ## NuGet
 
-[![NuGet](https://img.shields.io/nuget/v/Aurochses.Data.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Data.AutoMapper)
-[![NuGet](https://img.shields.io/nuget/dt/Aurochses.Data.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Data.AutoMapper)
+[![NuGet](https://img.shields.io/nuget/v/Aurochses.Data.AutoMapper.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Data.AutoMapper)
+[![NuGet](https://img.shields.io/nuget/dt/Aurochses.Data.AutoMapper.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Data.AutoMapper)
 
 ## Builds
 
