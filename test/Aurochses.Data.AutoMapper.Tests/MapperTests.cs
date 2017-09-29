@@ -8,6 +8,16 @@ namespace Aurochses.Data.AutoMapper.Tests
     public class MapperTests
     {
         [Fact]
+        public void Inherit_IMapper()
+        {
+            // Arrange & Act
+            var mapper = new Mapper();
+
+            // Assert
+            Assert.IsAssignableFrom<IMapper>(mapper);
+        }
+
+        [Fact]
         public void Map_Success()
         {
             // Arrange
