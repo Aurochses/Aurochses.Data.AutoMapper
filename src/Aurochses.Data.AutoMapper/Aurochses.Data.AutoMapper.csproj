@@ -12,6 +12,9 @@
     <RepositoryUrl>https://github.com/Aurochses/Aurochses.Data.AutoMapper</RepositoryUrl>
     <PackageTags>Data UnitOfWork Repository Entity Mapper AutoMapper</PackageTags>
     <Version>1.2.1</Version>
+
+    <!-- Required in both test/product projects. This is a temporary workaround for https://github.com/Microsoft/vstest/issues/800 -->
+    <DebugType>Full</DebugType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
