@@ -4,10 +4,10 @@ using AutoMapper.QueryableExtensions;
 namespace Aurochses.Data.AutoMapper
 {
     /// <summary>
-    /// Mapper.
+    /// DataMapper class.
     /// </summary>
-    /// <seealso cref="Aurochses.Data.IMapper" />
-    public class Mapper : IMapper
+    /// <seealso cref="Aurochses.Data.IDataMapper" />
+    public class DataMapper : IDataMapper
     {
         /// <summary>
         /// Method to map from a queryable using the provided mapping engine
