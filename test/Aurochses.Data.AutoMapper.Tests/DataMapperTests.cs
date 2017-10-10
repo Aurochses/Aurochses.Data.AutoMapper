@@ -1,20 +1,21 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Aurochses.Data.AutoMapper.Tests.Fakes;
+using AutoMapper;
 using Xunit;
 
 namespace Aurochses.Data.AutoMapper.Tests
 {
-    public class MapperTests
+    public class DataMapperTests
     {
         [Fact]
-        public void Inherit_IMapper()
+        public void Inherit_IDataMapper()
         {
             // Arrange & Act
-            var mapper = new Mapper();
+            var dataMapper = new DataMapper();
 
             // Assert
-            Assert.IsAssignableFrom<IMapper>(mapper);
+            Assert.IsAssignableFrom<IDataMapper>(dataMapper);
         }
 
         [Fact]
@@ -28,9 +29,9 @@ namespace Aurochses.Data.AutoMapper.Tests
                 new FakeSource {Id = 3, SourceName = "ThirdSourceName"}
             };
 
-            global::AutoMapper.Mapper.Initialize(cfg => cfg.CreateMap<FakeSource, FakeDestination>());
+            Mapper.Initialize(cfg => cfg.CreateMap<FakeSource, FakeDestination>());
 
-            var mapper = new Mapper();
+            var dataMapper = new DataMapper();
 
             var expected = new List<FakeDestination>
             {
@@ -40,7 +41,7 @@ namespace Aurochses.Data.AutoMapper.Tests
             };
 
             // Act
-            var result = mapper.Map<FakeDestination>(source.AsQueryable()).ToList();
+            var result = dataMapper.Map<FakeDestination>(source.AsQueryable()).ToList();
 
             // Assert
             for (var i = 0; i < expected.Count; i++)
