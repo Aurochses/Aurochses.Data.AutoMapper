@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.4;net461</TargetFrameworks>
+    <TargetFrameworks>net461;netstandard1.4</TargetFrameworks>
     <Authors>Aurochses</Authors>
     <Company>Aurochses</Company>
     <Description>Package to use AutoMapper with Aurochses.Data.</Description>
