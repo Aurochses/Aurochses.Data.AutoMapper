@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net461;netstandard1.4</TargetFrameworks>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Aurochses</Authors>
     <Company>Aurochses</Company>
     <Description>Package to use AutoMapper with Aurochses.Data.</Description>
@@ -18,20 +18,20 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard1.4\Aurochses.Data.AutoMapper.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\netstandard2.0\Aurochses.Data.AutoMapper.xml</DocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors />
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netstandard1.4\Aurochses.Data.AutoMapper.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\netstandard2.0\Aurochses.Data.AutoMapper.xml</DocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <WarningsAsErrors />
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aurochses.Data" Version="1.2.3" />
-    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="Aurochses.Data" Version="2.0.0" />
+    <PackageReference Include="AutoMapper" Version="6.2.1" />
   </ItemGroup>
 
 </Project>
