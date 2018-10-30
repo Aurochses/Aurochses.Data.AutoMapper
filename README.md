@@ -1,6 +1,6 @@
 # Aurochses Data AutoMapper
 
-Package to use AutoMapper with Aurochses.Data.
+Aurochses Data AutoMapper is a library to use AutoMapper with Aurochses.Data.
 
 ## NuGet
 
@@ -10,9 +10,8 @@ Package to use AutoMapper with Aurochses.Data.
 
 ## Builds
 
-Type            | Status 
+Branch          | Status 
 ----------------|--------
-CI (develop)    | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/244.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=244)
-CI (pre-master) | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/245.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=245)
-PR (latest)     | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/246.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=246)
-NuGet           | [![Visual Studio Team services](https://img.shields.io/vso/build/aurochses/784be346-9d3f-458f-95d8-5f1a8b5e1227/247.svg?style=flat-square)](https://aurochses.visualstudio.com/Aurochses.CSharp/_build/index?definitionId=247)
+develop    | [![Build status](https://aurochses.visualstudio.com/Aurochses.GitHub/_apis/build/status/Aurochses.Data.AutoMapper_CI?branchName=develop)](https://aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=375)
+pre-master | [![Build status](https://aurochses.visualstudio.com/Aurochses.GitHub/_apis/build/status/Aurochses.Data.AutoMapper_CI?branchName=pre-master)](https://aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=375)
+master     | [![Build status](https://aurochses.visualstudio.com/Aurochses.GitHub/_apis/build/status/Aurochses.Data.AutoMapper_CI?branchName=master)](https://aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=375)
