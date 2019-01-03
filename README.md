@@ -1,17 +1,18 @@
-# Aurochses Data AutoMapper
+# Aurochses.Data.AutoMapper
 
-Aurochses Data AutoMapper is a library to use AutoMapper with Aurochses.Data.
+Aurochses.Data.AutoMapper is a library for using AutoMapper with Aurochses.Data.
 
 ## NuGet
+[![NuGet Version](https://img.shields.io/nuget/v/Aurochses.Data.AutoMapper.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Data.AutoMapper)
+[![NuGet Dependencies](https://img.shields.io/librariesio/release/nuget/Aurochses.Data.AutoMapper.svg?style=flat-square)](https://libraries.io/nuget/Aurochses.Data.AutoMapper)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Aurochses.Data.AutoMapper.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Data.AutoMapper)
 
-[![NuGet](https://img.shields.io/nuget/v/Aurochses.Data.AutoMapper.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Data.AutoMapper)
-[![NuGet](https://img.shields.io/nuget/dt/Aurochses.Data.AutoMapper.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Data.AutoMapper)
-[![NuGet Status](http://nugetstatus.com/Aurochses.Data.AutoMapper.png)](http://nugetstatus.com/packages/Aurochses.Data.AutoMapper)
+## Azure DevOps
 
-## Builds
+[![Build](https://img.shields.io/azure-devops/release/Aurochses/61cd8e26-670f-4d15-9b53-5e73a476a30f/15/15.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_release?definitionId=15)
 
-Branch          | Status 
-----------------|--------
-develop    | [![Build status](https://aurochses.visualstudio.com/Aurochses.GitHub/_apis/build/status/Aurochses.Data.AutoMapper_CI?branchName=develop)](https://aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=375)
-pre-master | [![Build status](https://aurochses.visualstudio.com/Aurochses.GitHub/_apis/build/status/Aurochses.Data.AutoMapper_CI?branchName=pre-master)](https://aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=375)
-master     | [![Build status](https://aurochses.visualstudio.com/Aurochses.GitHub/_apis/build/status/Aurochses.Data.AutoMapper_CI?branchName=master)](https://aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=375)
+Branch     | Build | Tests | Coverage
+-----------|-------|-------|----------
+develop | [![Build](https://img.shields.io/azure-devops/build/Aurochses/Aurochses.GitHub/375/develop.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=375&branchName=develop) | [![Tests](https://img.shields.io/azure-devops/tests/Aurochses/Aurochses.GitHub/375/develop.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=375&branchName=develop) | [![Coverage](https://img.shields.io/azure-devops/coverage/Aurochses/Aurochses.GitHub/375/develop.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=375&branchName=develop)
+pre-master | [![Build](https://img.shields.io/azure-devops/build/Aurochses/Aurochses.GitHub/375/pre-master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=375&branchName=pre-master) | [![Tests](https://img.shields.io/azure-devops/tests/Aurochses/Aurochses.GitHub/375/pre-master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=375&branchName=pre-master) | [![Coverage](https://img.shields.io/azure-devops/coverage/Aurochses/Aurochses.GitHub/375/pre-master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=375&branchName=pre-master)
+master | [![Build](https://img.shields.io/azure-devops/build/Aurochses/Aurochses.GitHub/375/master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=375&branchName=master) | [![Tests](https://img.shields.io/azure-devops/tests/Aurochses/Aurochses.GitHub/375/master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=375&branchName=master) | [![Coverage](https://img.shields.io/azure-devops/coverage/Aurochses/Aurochses.GitHub/375/master.svg?style=flat-square)](https://Aurochses.visualstudio.com/Aurochses.GitHub/_build/latest?definitionId=375&branchName=master)
