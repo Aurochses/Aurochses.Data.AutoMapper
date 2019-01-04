@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using AutoMapper.QueryableExtensions;
+using AutoMapper;
 
 namespace Aurochses.Data.AutoMapper
 {
@@ -9,6 +9,17 @@ namespace Aurochses.Data.AutoMapper
     /// <seealso cref="Aurochses.Data.IDataMapper" />
     public class DataMapper : IDataMapper
     {
+        private readonly IMapper _mapper;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="DataMapper"/> class.
+        /// </summary>
+        /// <param name="mapper">The mapper.</param>
+        public DataMapper(IMapper mapper)
+        {
+            _mapper = mapper;
+        }
+
         /// <summary>
         /// Method to map from a queryable using the provided mapping engine
         /// </summary>
@@ -17,7 +28,7 @@ namespace Aurochses.Data.AutoMapper
         /// <returns>Expression to map into</returns>
         public IQueryable<TDestination> Map<TDestination>(IQueryable source)
         {
-            return source.ProjectTo<TDestination>();
+            return _mapper.ProjectTo<TDestination>(source);
         }
     }
 }

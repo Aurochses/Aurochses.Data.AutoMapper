@@ -11,8 +11,12 @@ namespace Aurochses.Data.AutoMapper.Tests
         [Fact]
         public void Inherit_IDataMapper()
         {
-            // Arrange & Act
-            var dataMapper = new DataMapper();
+            // Arrange
+            var mapperConfiguration = new MapperConfiguration(cfg => { });
+            var mapper = mapperConfiguration.CreateMapper();
+
+            // Act
+            var dataMapper = new DataMapper(mapper);
 
             // Assert
             Assert.IsAssignableFrom<IDataMapper>(dataMapper);
@@ -29,9 +33,10 @@ namespace Aurochses.Data.AutoMapper.Tests
                 new FakeSource {Id = 3, SourceName = "ThirdSourceName"}
             };
 
-            Mapper.Initialize(cfg => cfg.CreateMap<FakeSource, FakeDestination>());
+            var mapperConfiguration = new MapperConfiguration(cfg => cfg.CreateMap<FakeSource, FakeDestination>());
+            var mapper = mapperConfiguration.CreateMapper();
 
-            var dataMapper = new DataMapper();
+            var dataMapper = new DataMapper(mapper);
 
             var expected = new List<FakeDestination>
             {
